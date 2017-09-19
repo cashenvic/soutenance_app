@@ -1,0 +1,122 @@
+/*
+	feuille de style pour bd avancé: gestion des prjets de fin d'etude;
+*/
+
+body{
+	width: 90%;
+	min-width: 404px;
+	margin: auto;
+	font-size: 1.5em;
+	color: #4c486e;
+	background-color: rgba(208, 233, 252, 0.6);
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+input{
+	margin-left: 1.3em;
+	margin-bottom: 0.4em;
+	max-width: 79%;
+}
+
+label{
+	font-size: 1.2em;
+}
+
+legend{
+	text-align: center;
+	color: #286090;
+	font-size: 1.8em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #0b0f1a;
+}
+
+ form{
+ 	background-color: #f6f6f6;
+ 	min-width: 400px;
+ 	width: 37%;
+ 	/*height: 80%;*/
+ 	margin: auto;
+ 	margin-top: 10%;
+ 	border-radius: 10%;
+ 	box-shadow: 0 1px 1px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+	margin-bottom: 10px;
+ }
+
+table{
+	margin:auto;
+	margin-top: 15px;
+	margin-bottom: 10px;
+
+	border-collapse: collapse;
+	border: 1px outset #d1dfea;
+	border-spacing: 0;
+}
+
+th{
+	border-top: 1px solid #d1dfea;
+	border-left: 1px solid #d1dfea;
+	border-right: 1px solid #d1dfea;
+	color: #73869d;/*#c8d2e0 #aebeca*/
+	text-align: center;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+td{
+	border-top: 1px solid #d1dfea;
+	border-left: 1px solid #d1dfea;
+	border-right: 1px solid #d1dfea;
+	padding: 6px 13px;
+}
+
+fieldset table, fieldset table td, fieldset table th{
+	border: none;
+}
+
+ div table td, div table th, div table{
+ 	border: none;
+ }
+
+.formTab{
+	width: 65%;
+	margin:auto;
+}
+
+.alert{
+	min-width: 700px;
+ 	width: 40%;
+ 	margin: auto;
+ 	text-align: center;
+}
+
+.resultTable{
+	font-size: 1.3em;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.075);
+	border: none;
+}
+
+ .present{
+ 	font-size: 2.8em;
+ 	margin-bottom: 84px;
+ 	margin-top: 154px;
+ 	/*text-shadow: 0 0 5px rgba(0, 0, 0, 0.075);*/
+ 	text-shadow: 0 1px 2px black;
+ }
+
+.info{
+	font-size: 0.4em;
+	font-style: italic;
+	text-shadow: none;
+}
+
+.shadow{
+	
+}
